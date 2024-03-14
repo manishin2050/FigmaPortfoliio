@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background: linear-gradient(#DF580C 0%, #FD993D 100%);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFF500;
+    border-radius: 50px;
+    background: linear-gradient(#32F6F6 0%, #A6A79F 100%);
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+.main-container{
+    padding-bottom: 60px;
+}
+
+a {
+    height: 29px;
+    font-weight: bold;
+    font-family: Tahoma;
+
+}
+
+.main {
+    position: relative;
+    left: 10%;
+    margin-top: 10%;
+    /* background-color: #32F6F6; */
+    width: 40%;
+}
+
+.text {
+    background: linear-gradient(90deg, #32F6F6 0%, #A6A79F 100%);
+    width: 197px;
+    height: 72px;
+    border-radius: 70px 50px 50px 0px;
+    color: #fff;
+    padding: 5px 30px;
+    font-weight: bolder;
+    font-size: 20px;
+
+
+}
+
+.btn {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.426);
+}
+
+.social-links {
+    position: relative;
+    margin-top: -3%;
+}
+
+.social-links .fb {
+    height: 40px;
+    width: 50px;
+    font-size: 24px;
+}
+
+.blob {
+    position: relative;
+    left: 50%;
+    margin-top: -50%;
+    transform: rotateZ(95deg);
+}
+
+.profile-img {
+    position: relative;
+    left: 56%;
+    margin-top: -50%;
+    overflow: hidden;
+    /* background-color: #32F6F6; */
+}
+
+.profile-img img {
+    filter: grayscale(200%);
+}
+
+/* second page */
+.desc {
+    margin-top: 100px;
+    padding: 0px 125px;
+    margin-left: 15%;
+    position: relative;
+    z-index: 0;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.hand {
+    position: relative;
+    left: -60%;
+    /* z-index: 5; */
+    margin-top: -72%;
+}
+
+.yellow-blob {
+    position: relative;
+    margin-top: -85%;
+    left: 85%;
+    z-index: -2;
+}
+
+.small-yellow-blog {
+    position: relative;
+    margin-top: -20%;
+    left: 10%;
+}
+
+.small-gray-blob {
+    position: relative;
+    left: 69%;
+    margin-top: -28%;
+}
+
+.hand-down-blob {
+    position: relative;
+    margin-top: -42%;
+    z-index: -1;
+    left: -80%;
+    transform: rotate(167deg);
+}
+
+.links-2 {
+    margin-top: -10%;
+}
+
+/* css for dark mode */
+.dark {
+    background-color: #151515;
+    color: whitesmoke;
+}
